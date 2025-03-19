@@ -109,10 +109,46 @@ section{
 }
 
 
+/******projects*****/
+#Projects{
+    background: rgb(89, 20, 20);
+}
+
+#Projects h1{
+    color: #b5b4b4;
+    display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  
+}
+#Projects p{ 
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+ 
+}
+
+
+.download-button {
+    background-color: #162a5d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.download-button:hover {
+    background-color:#000022;
+}
+
+
 
 /* ===== skills =====*/
 #skills{
-    background: linear-gradient(to right,#3108088c,#d3bdbd 100%  );
+    background: linear-gradient(to right,#3108088c,#5e3e3e 100%  );
     
 }
 
@@ -139,7 +175,7 @@ section{
     
 /******Education****/
 #Education{
-    background: linear-gradient(to right,#2f2c2c,#310808 100%  );
+    background: linear-gradient(to left,#2f2c2c,#310808 100%  );
 
 }
 #Education h1{
