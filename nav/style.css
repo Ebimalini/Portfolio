@@ -23,7 +23,7 @@
 
 font-size: 25px;
 font-weight: 400;
-color: #8d0000 !important; 
+color: #e64c69 !important; 
 }
 
 #navbarSupportedContent a{
@@ -53,7 +53,7 @@ section{
 
 
 #home{
-    background-color:#7f265d;
+    background-color:#421b1b;
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -81,7 +81,7 @@ section{
 }
 
 .signin{
-    background:#FF4500 !important;
+    background:#14073e !important;
     color: white !important;
     box-shadow: 2px 4px 5px rgba(0,0,0,.3);
 
@@ -108,20 +108,21 @@ section{
 
 }
 
-
+ 
 /******projects*****/
-#Projects{
-    background: rgb(89, 20, 20);
+#projects{
+    background: radial-gradient(circle at center, rgba(58, 43, 44, 0.673) 20%, rgba(58, 43, 44, 0.673) 50%,#2c0f07);
 }
 
-#Projects h1{
-    color: #b5b4b4;
+#projects h1{
+    font-size: large;
+    color: #1b1919;
     display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
   
 }
-#Projects p{ 
+#projects p{ 
   display: flex;
   justify-content: center;  /* Center horizontally */
   align-items: center;      /* Center vertically */
@@ -129,53 +130,36 @@ section{
 }
 
 
-.download-button {
-    background-color: #162a5d;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 20px;
-    display: inline-block;
-    margin-top: 10px;
-    align-self: center;
-}
-
-.download-button:hover {
-    background-color:#000022;
-}
-
-
-
 /* ===== skills =====*/
 #skills{
-    background: linear-gradient(to right,#3108088c,#5e3e3e 100%  );
+    background: linear-gradient(to left,#3108088c,#250f09 100%  );
     
 }
 
 #skills h1{
     font-size: 40px;
     font-weight: 800;
-    color: rgb(40, 34, 34);
+    color: rgb(10, 1, 1);
 
 }
 #skills h3{
     font-size: 25px;
     font-weight: 800;
-    color: rgb(40, 34, 34);
+    color: rgb(10, 1, 1);
 
 }
 #skills p{
-    color: rgb(45, 41, 41);
+    color: rgb(10, 1, 1);
 
 }
 #skills ul{
-    color: rgb(34, 27, 27);
+    color:rgb(10, 1, 1);
     font-weight: 600;
 }
     
 /******Education****/
 #Education{
-    background: linear-gradient(to left,#2f2c2c,#310808 100%  );
+    background: linear-gradient(to right,#2f2c2c,#310808 100%  );
 
 }
 #Education h1{
@@ -201,10 +185,39 @@ section{
     color: rgb(255, 244, 244);
 
 }
+
+
+/****resume****/
+
+#resume{
+    background: rgb(58, 43, 44);
+}
+
+#resume h1{
+    color: #cbcbcb;
+}
+
+.download-button {
+    background-color: #162a5d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.download-button:hover {
+    background-color:#000022;
+}
+
+
+
 /*****contact*****/
 
 #Contact{
-    background: radial-gradient(circle at center, rgba(58, 43, 44, 0.673) 20%, rgba(58, 43, 44, 0.673) 50%, rgb(65, 4, 4));
+    background: linear-gradient(to left, rgba(58, 43, 44, 0.673) 20%, rgba(58, 43, 44, 0.673) 50%, rgb(50, 15, 15));
 }
 
 #Contact h1{
